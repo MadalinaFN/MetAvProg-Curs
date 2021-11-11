@@ -32,13 +32,13 @@ namespace Curs_3
                     }
                 }
             }
-            //tempRPN.view();
+            tempRPN.view();
             //Console.WriteLine();
 
 
-            int[,] a = load(@"..\..\dataIN.txt");
+            /*int[,] a = load(@"..\..\dataIN.txt");
             view(a);
-            Lee();
+            Lee();*/
         }
         static int [,] load(string fileName)
         {
